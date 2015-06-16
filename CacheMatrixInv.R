@@ -23,3 +23,23 @@ cacheSolve <- function(x, ...) {
     x$setinverse(m)
     m
 }
+
+#Test Cases 1
+# set.seed(10)
+# r = rnorm (16)
+# r
+# mm = matrix(r,4,4)
+# mm
+# mc = makeCacheMatrix(mm)
+# cacheSolve(mc)
+# cacheSolve(mc)
+
+#Test Cases 2
+# set.seed(10)
+# r = rnorm (16, 2,2)
+# r
+# mm = matrix(r,4,4)
+# mm
+# mc = makeCacheMatrix(mm)
+# cacheSolve(mc)
+# cacheSolve(mc)
